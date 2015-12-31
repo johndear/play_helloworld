@@ -1,0 +1,13 @@
+# Application dependencies
+
+require:
+    - play
+    - customerModules  -> crud 0.1
+
+
+repositories:
+    - playLocalTestModulesRep:
+        type: local
+        artifact: ${application.path}/../[module]
+        contains:
+            - customerModules -> *

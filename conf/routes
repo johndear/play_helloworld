@@ -15,7 +15,15 @@ DELETE  /event/{id}                             Application.delete
 
 GET     /load                                   Application.loadFromYamlFile
 
-*       /admin									EnventController.index
+*       /admin                                  module:crud
+
+#
+# Authentication
+#
+GET     /oauthtw                                Secure.oauthTwitter
+GET     /oauthfb                                Secure.oauthFacebook
+GET     /login                                  Secure.login
+GET     /logout                                 Secure.logout
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
@@ -25,4 +33,3 @@ GET     /public/                                staticDir:public
 
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
-*       /events/{action}                        EnventController.{action}

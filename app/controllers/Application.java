@@ -12,10 +12,10 @@ import play.mvc.Controller;
 
 public class Application extends Controller {
 
-    public static void index() {
-    	System.out.println("index...........");
-        render();
-    }
+//    public static void index() {
+//    	System.out.println("index...........");
+//        render();
+//    }
     
     public static void list() {
     	Secure.loadUser();

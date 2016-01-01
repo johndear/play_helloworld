@@ -8,6 +8,6 @@ require:
 repositories:
     - playLocalTestModulesRep:
         type: local
-        artifact: ${application.path}/../play_helloworld/moduless/[module]
+        artifact: ${application.path}//modules/[module]
         contains:
             - customerModules -> *

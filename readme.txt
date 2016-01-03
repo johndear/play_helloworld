@@ -10,6 +10,8 @@ play run 启动项目
 play ec  生成eclipse项目
 play clean 清空tmp临时文件夹（包含.class文件）
 
+play crud:ov --template Users/list 生成自定义的页面
+
 
 Python 基础教程
 http://www.runoob.com/python/python-tutorial.html
@@ -21,4 +23,4 @@ Highcharts 教程
 http://www.runoob.com/highcharts/highcharts-tutorial.html
 
 实践：
-http://hsfgo.iteye.com/blog/806590
+http://hsfgo.iteye.com/blog/806590 suggest功能

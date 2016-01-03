@@ -24,3 +24,6 @@ http://www.runoob.com/highcharts/highcharts-tutorial.html
 
 实践：
 http://hsfgo.iteye.com/blog/806590 suggest功能
+
+原理：
+http://www.tuicool.com/articles/3Uj6re  playframework拦截器和热加载 源码浅析

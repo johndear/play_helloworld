@@ -19,3 +19,6 @@ http://www.runoob.com/design-pattern/singleton-pattern.html
 http://www.runoob.com/regexp/regexp-tutorial.html
 Highcharts 教程
 http://www.runoob.com/highcharts/highcharts-tutorial.html
+
+实践：
+http://hsfgo.iteye.com/blog/806590

@@ -1,29 +1,29 @@
 # Default CRUD messages
 # ~~~~~~
 
-crud.title=Administration123
+crud.title=管理后台
 crud.home=Home
 crud.blank=New
-crud.index.title=Choose the object to edit
-crud.index.objectType=Object type
+crud.index.title=类型列表
+crud.index.objectType=类型名称
 crud.index.action=
-crud.index.add=Add
-crud.add=Add &{%s}
-crud.list.title=&{%s}
+crud.index.add=添加
+crud.add=添加 &{%s}
+crud.list.title=&{%s}列表
 crud.list.size=%d &{%s}
 crud.list.totalSize=%d total
 crud.pagination.previous=« Previous
 crud.pagination.next=Next »
 crud.pagination.last=Last »»
 crud.pagination.first=«« First
-crud.show.title=Edit &{%s}
-crud.save=Save
-crud.saveAndContinue=Save and continue editing
-crud.cancel=Cancel
+crud.show.title=编辑 &{%s}
+crud.save=保存
+crud.saveAndContinue=保存后继续编辑
+crud.cancel=取消
 crud.hasErrors=Please correct errors
-crud.blank.title=Add &{%s}
-crud.saveAndAddAnother=Save and create another
-crud.delete=Delete &{%s}
+crud.blank.title=新增 &{%s}
+crud.saveAndAddAnother=保存后继续新增
+crud.delete=删除 &{%s}
 crud.created=The &{%s} has been created
 crud.saved=The &{%s} has been saved
 crud.deleted=The &{%s} has been deleted

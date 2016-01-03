@@ -33,75 +33,77 @@ import play.db.jpa.Model;
 @Table(name = "csos_account")
 public class Account extends Model {
 	
+	public String name;
+	
 	/**
      * 姓名
      */
-	@Required
+	@Required(message="You have to complete the event's name.")
     @Column(name = "account_id", nullable = false, length = 255)
-    private String accountId;
+    public String accountId;
 	
 	/**
      * 姓名
      */
 	@Required
     @Column(name = "user_name", nullable = false, length = 255)
-    private String userName;
+    public String userName;
     
     /**
      * portal账号
      */
     @Required
     @Column(name = "portal_code", nullable = false, length = 255)
-    private String portalCode;
+    public String portalCode;
     
     /**
      * 客服昵称
      */
     @Required
     @Column(name = "nickname", nullable = false, length = 127)
-    private String nickName;
+    public String nickName;
     
     /**
      * 邮箱
      */
     @Column(name = "email", nullable = true, length = 255)
-    private String email;
+    public String email;
     
     /**
      * 最大处理能力
      */
     @Column(name = "handle_limit", nullable = true)
-    private Integer handleLimit;
+    public Integer handleLimit;
     
     /**
      * 质检抽检量
      */
     @Column(name = "check_count", nullable = true)
-    private Integer checkCount;
+    public Integer checkCount;
     
     /**
      * 设定完成工单量
      */
     @Column(name = "except_count", nullable = true)
-    private Integer exceptCount;
+    public Integer exceptCount;
     
     /**
      * 客服类型0为自营客服,1为U客服
      */
     @Column(name = "kf_type", nullable = false)
-    private String kfType;
+    public String kfType;
     
     /**
      * 客服等级id
      */
     @Column(name = "level_id", nullable = true)
-    private Long levelId;
+    public Long levelId;
     
     /**
      * 是否优选。1为优选，0为非优选。默认为0
      */
     @Column(name = "prior_choice", nullable = true)
-    private int priorChoice;
+    public int priorChoice;
     
     
     /**
@@ -109,34 +111,34 @@ public class Account extends Model {
      */
     @Required
     @Column(name = "status", nullable = true, length = 4)
-    private int status;
+    public int status;
     
     /**
      * 创建时间
      */
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "create_time", nullable = true)
-    private Date createTime;
+    public Date createTime;
     
     /**
      * 修改时间
      */
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "modify_time", nullable = true)
-    private Date modifyTime;
+    public Date modifyTime;
     
     /**
      * 备注
      */
     @Column(name = "remarks", nullable = true)
-    private String remarks;
+    public String remarks;
     
     /**
      * 同步时间
      */
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "sync_time", nullable = true)
-    private Date syncTime;
+    public Date syncTime;
     
     /**
      * 功能描述：从工单系统获取客服账号信息

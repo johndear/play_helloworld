@@ -23,6 +23,9 @@
 				#{else}
 				<li>#{a @secure.login()}&{'topbar.signin'}#{/a}</li>
 				#{/else}
+				<li>
+					#{a @CRUD.index()}&{'event.button.admin'}#{/a}
+				</li>
 				<li id="play-logo">
                     <a href="http://www.playframework.org/" id="play-logo"></a>
 				</li>

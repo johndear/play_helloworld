@@ -22,8 +22,14 @@ http://www.runoob.com/regexp/regexp-tutorial.html
 Highcharts 教程
 http://www.runoob.com/highcharts/highcharts-tutorial.html
 
+基础篇：
+http://blog.csdn.net/u011225629/article/details/47971093  Play的优缺点以及适用场景
+
 实践：
-http://hsfgo.iteye.com/blog/806590 suggest功能
+http://www.tuicool.com/articles/jAvEjuR   playframework切换连接池c3p0
+http://hsfgo.iteye.com/blog/806590   suggest功能
+http://blog.csdn.net/jasper_success/article/details/49018955  play framework实现多文件上传
+http://www.tuicool.com/articles/IrYJzeI   playframework结合QRGen在页面生成QR码
 
 原理：
 http://www.tuicool.com/articles/3Uj6re  playframework拦截器和热加载 源码浅析

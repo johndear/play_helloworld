@@ -9,7 +9,10 @@ import models.EventType;
 import play.data.validation.Valid;
 import play.mvc.Before;
 import play.mvc.Controller;
+import play.mvc.With;
 
+//@With(Secure.class)
+//@Check("administrator")
 public class Application extends Controller {
 
 //    public static void index() {
@@ -18,7 +21,7 @@ public class Application extends Controller {
 //    }
     
     public static void list() {
-    	Secure.loadUser();
+//    	Secure.loadUser();
     	List<Event> events = Event.find("order by date desc").fetch();
         render(events);
     }

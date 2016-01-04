@@ -1,4 +1,0 @@
-self: play -> crud 0.1
-
-require:
-    - play
